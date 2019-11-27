@@ -37,7 +37,7 @@ L(6) = Link('offset', 0,     'd',0.25,   'a',0,      'alpha',0);
 
 KR90=SerialLink(L, 'name', 'Kuka KR90');
 %KR90.tool=transl(0,0,0.115);
-KR90.ikineType = 'kr90';
+%KR90.ikineType = 'kr5';
 %KR90.model3d = 'KUKA/KR5_arc';
 
 q0=[0 0 0 0 0 0];
